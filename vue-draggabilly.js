@@ -1,4 +1,4 @@
-import Draggabilly from 'draggabilly';
+const Draggabilly = require('draggabilly');
 
 exports.install = function (Vue, options) {
     Vue.directive('draggabilly', {
